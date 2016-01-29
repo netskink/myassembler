@@ -1,0 +1,27 @@
+   @0
+   D=M
+   @INFINITE_LOOP
+   D;JLE 
+   @COUNTER
+   M=D
+   @SCREEN
+   D=A
+   @ADDRESS
+   M=D
+(LOOP)
+   @ADDRESS
+   A=M
+   M=-1
+   @ADDRESS
+   D=M
+   @32
+   D=D+A
+   @ADDRESS
+   M=D
+   @COUNTER
+   MD=M-1
+   @LOOP
+   D;JGT
+(INFINITE_LOOP)
+   @INFINITE_LOOP
+   0;JMP
