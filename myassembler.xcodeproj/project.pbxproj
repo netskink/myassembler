@@ -13,6 +13,7 @@
 		7245C3881B2037530083CC50 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7245C3871B2037530083CC50 /* utils.m */; };
 		727E652C1B1ABFDA002E7AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727E652B1B1ABFDA002E7AF5 /* main.m */; };
 		729739331B218D4B00835726 /* MyIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 729739321B218D4B00835726 /* MyIO.m */; };
+		72F23C391C5BF86C00978F45 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 72F23C381C5BF86C00978F45 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 		727E652B1B1ABFDA002E7AF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		729739311B218CA500835726 /* MyIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyIO.h; sourceTree = "<group>"; };
 		729739321B218D4B00835726 /* MyIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyIO.m; sourceTree = "<group>"; };
+		72F23C381C5BF86C00978F45 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				7245C3851B1FC9380083CC50 /* parser.h */,
 				7245C3871B2037530083CC50 /* utils.m */,
 				7245C3891B203A3C0083CC50 /* utils.h */,
+				72F23C381C5BF86C00978F45 /* Readme.md */,
 			);
 			path = myassembler;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F23C391C5BF86C00978F45 /* Readme.md in Sources */,
 				72149AAF1B22E8AC00D100D3 /* SymbolTable.m in Sources */,
 				729739331B218D4B00835726 /* MyIO.m in Sources */,
 				7245C3841B1FC8270083CC50 /* parser.m in Sources */,
